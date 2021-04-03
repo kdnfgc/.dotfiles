@@ -84,6 +84,7 @@ let g:lightline.subseparator = {
 	\   'left': '', 'right': '' 
   \}
 
+
 set number
 :nnoremap p h
 :nnoremap P H

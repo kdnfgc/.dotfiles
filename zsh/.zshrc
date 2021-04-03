@@ -20,8 +20,16 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk
 
+
 #Add theme
 zinit light romkatv/powerlevel10k
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#Aliases
+alias ls='ls --color'
+alias init='git init'
+alias push='git push'
+alias commit='git commit'
+alias add='git add'
