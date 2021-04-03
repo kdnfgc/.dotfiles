@@ -39,8 +39,9 @@ set directory=$HOME/.local/share/nvim/swap
 call plug#begin()
 Plug 'sainnhe/gruvbox-material'
 Plug 'sheerun/vim-polyglot'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 Plug 'makerj/vim-pdf'
 "Enhanced netrw exp
 Plug 'tpope/vim-vinegar'
@@ -72,7 +73,16 @@ call plug#end()
 " Configure the `make` command to run RSpec
 set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 
-
+"Configure lightline
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox_material',
+      \ }
+let g:lightline.separator = {
+	\   'left': '', 'right': ''
+  \}
+let g:lightline.subseparator = {
+	\   'left': '', 'right': '' 
+  \}
 
 set number
 :nnoremap p h
@@ -87,3 +97,5 @@ set number
 :nnoremap J P
 :nnoremap l y
 :nnoremap L Y
+
+
