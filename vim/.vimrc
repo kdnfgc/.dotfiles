@@ -72,6 +72,7 @@ call plug#end()
 set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 
 
+
 set number
 :nnoremap p h
 :nnoremap P H
