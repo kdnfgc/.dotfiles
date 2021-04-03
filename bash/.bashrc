@@ -1,2 +1,5 @@
 source /usr/share/defaults/etc/profile
-source $HOME/.cargo/env
+alias init='git init'
+alias push='git push'
+alias commit='git commit'
+alias add='git add'
