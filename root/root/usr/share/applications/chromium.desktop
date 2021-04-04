@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=~/Desktop/ungoogled-chromium.AppImage
+Name=Chromium
+Icon=~/.icons/Gruvbox-Material-Dark/48x48/chromium.svg
+Categories=WebBrowser
+GenericName=Web Browser
