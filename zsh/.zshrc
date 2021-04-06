@@ -27,6 +27,9 @@ zinit light romkatv/powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+HISTFILE=~/.zsh_history
+SAVEHIST=20
+
 #Aliases
 alias ls='ls --color'
 alias init='git init'
