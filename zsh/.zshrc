@@ -30,6 +30,9 @@ zinit light romkatv/powerlevel10k
 HISTFILE=~/.zsh_history
 SAVEHIST=20
 
+#Adds QT support to GTK
+#QT_QPA_PLATFORMTHEME="gtk3"
+
 #Aliases
 alias ls='ls --color'
 alias init='git init'
