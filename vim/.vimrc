@@ -54,7 +54,6 @@ Plug 'Raimondi/delimitMate'
 Plug 'powentan/vim-orgmode'
 Plug 'rust-lang/rust.vim'
 Plug 'francoiscabrol/ranger.vim'
-Plug 'edkolev/tmuxline.vim'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
