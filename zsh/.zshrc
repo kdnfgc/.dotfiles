@@ -27,11 +27,13 @@ zinit light romkatv/powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+#History
 HISTFILE=~/.zsh_history
-SAVEHIST=20
+SAVEHIST=1000
 
-#Adds QT support to GTK
-#QT_QPA_PLATFORMTHEME="gtk3"
+#VI Mode
+bindkey -v
+export KEYTIMEOUT=1
 
 #Aliases
 alias ls='ls --color'
@@ -40,3 +42,8 @@ alias push='git push'
 alias commit='git commit'
 alias add='git add'
 alias clone='git clone'
+alias pull='git pull'
+
+#Sources Autosuggestions & Syntax Highlighting
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
