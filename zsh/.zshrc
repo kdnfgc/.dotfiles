@@ -35,6 +35,9 @@ SAVEHIST=1000
 bindkey -v
 export KEYTIMEOUT=1
 
+#Sources Cargo
+#source $HOME/.cargo/env
+
 #Aliases
 alias ls='ls --color'
 alias init='git init'
