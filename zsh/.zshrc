@@ -47,6 +47,9 @@ alias commit='git commit'
 alias add='git add'
 alias clone='git clone'
 alias pull='git pull'
+alias status='git status'
+alias neofetch='neofetch --ascii_distro suse_small'
+alias spec='neofetch'
 
 #Sources Autosuggestions & Syntax Highlighting
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
