@@ -1,6 +1,3 @@
-
-
-
 set nocompatible
 
 syntax on
