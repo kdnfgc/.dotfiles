@@ -52,4 +52,5 @@ alias status='git status'
 alias neofetch='neofetch --ascii_distro suse_small'
 alias spec='neofetch'
 alias off='poweroff'
+alias rb='reboot'
 
