@@ -37,6 +37,17 @@ bindkey -v
 export KEYTIMEOUT=1
 
 
+
+# Use vim keys in tab complete menu:
+#bindkey -M menuselect 'p' vi-backward-char
+#bindkey -M menuselect 'x' vi-down-line-or-history
+#bindkey -M menuselect 'k' vi-up-line-or-history
+#bindkey -M menuselect 'y' vi-forward-char
+
+#Fixes backspace bug
+bindkey -v '^?' backward-delete-char
+#bindkey -v menuselect 
+
 #Sources Cargo
 #source $HOME/.cargo/env
 
