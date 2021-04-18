@@ -1384,18 +1384,6 @@
             <description>English (US, euro on 5)</description>
           </configItem>
         </variant>
-
-
-<variant>
-<configItem>
-<name>halmak</name>
-<description>Halmak </description>
-</configItem>
-</variant>
-
-
-
-
         <variant>
           <configItem>
             <name>intl</name>
@@ -1527,6 +1515,12 @@
             <description>English (Workman, intl., with dead keys)</description>
            </configItem>
          </variant>
+<variant>
+<configItem>
+<name>halmak</name>
+<description>English (Halmak)</description>
+</configItem>
+</variant>
       </variantList>
     </layout>
     <layout>

@@ -1515,6 +1515,12 @@
             <description>English (Workman, intl., with dead keys)</description>
            </configItem>
          </variant>
+<variant>
+<configItem>
+<name>halmak</name>
+<description>English (Halmak)</description>
+</configItem>
+</variant>
       </variantList>
     </layout>
     <layout>
