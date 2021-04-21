@@ -48,8 +48,9 @@ export KEYTIMEOUT=1
 bindkey -v '^?' backward-delete-char
 #bindkey -v menuselect 
 
-#Sources Cargo
-#source $HOME/.cargo/env
+#Sources Cargo & .profile
+#source ~/.profile
+#source ~/.cargo/env
 
 #Aliases
 alias ls='ls --color'
@@ -63,4 +64,8 @@ alias status='git status'
 alias spec='pfetch'
 alias off='poweroff'
 alias rb='reboot'
-
+alias new='cargo new'
+alias build='cargo build'
+alias run='cargo run'
+alias check='cargo check'
+alias carup='cargo update'

@@ -47,6 +47,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'knubie/vim-kitty-navigator'
 Plug 'vim-test/vim-test'
+Plug 'vim-scripts/AutoComplPop'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
