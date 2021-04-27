@@ -75,16 +75,28 @@ let g:lightline.subseparator = {
   \}
 
 set number
+
+"Maps p as left
 :nnoremap p h
 :nnoremap P H
+
+"Maps x as down
 :nnoremap x j
 :nnoremap X J
+
+"Maps y as right
 :nnoremap y l
 :nnoremap Y L
+
+"Maps h as abolish
 :nnoremap h x
 :nnoremap H X
+
+"Maps l as pull
 :nnoremap l p
 :nnoremap L P
+
+"Maps j as join
 :nnoremap j y
 :nnoremap J Y
 
