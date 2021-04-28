@@ -100,4 +100,3 @@ set number
 :nnoremap j y
 :nnoremap J Y
 
-

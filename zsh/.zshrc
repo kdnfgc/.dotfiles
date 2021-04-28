@@ -52,6 +52,14 @@ bindkey -v '^?' backward-delete-char
 #source ~/.profile
 #source ~/.cargo/env
 
+#sources sdkman
+source "/home/kdn/.sdkman/bin/sdkman-init.sh"
+
+#Fixes Java bug
+SILENT_JAVA_OPTIONS="$JDK_JAVA_OPTIONS"
+unset JDK_JAVA_OPTIONS
+alias java='java "$SILENT_JAVA_OPTIONS"'
+
 #Aliases
 alias ls='ls --color'
 alias init='git init'
@@ -69,3 +77,7 @@ alias build='cargo build'
 alias run='cargo run'
 alias check='cargo check'
 alias carup='cargo update'
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/kdn/.sdkman"
+[[ -s "/home/kdn/.sdkman/bin/sdkman-init.sh" ]] && source "/home/kdn/.sdkman/bin/sdkman-init.sh"

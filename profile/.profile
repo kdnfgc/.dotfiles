@@ -20,6 +20,9 @@ test -z "$PROFILEREAD" && . /etc/profile || true
 
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
+#Better Java settings
+export JAVA_TOOL_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -swing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+
 #if [ -x /usr/bin/fortune ] ; then
 #    echo
 #    /usr/bin/fortune
