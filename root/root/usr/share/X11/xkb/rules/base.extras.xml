@@ -485,6 +485,19 @@
             </languageList>
           </configItem>
         </variant>
+
+<variant>
+          <configItem popularity="exotic">
+            <name>halmak</name>
+            <description>English (Halmak)</description>
+          </configItem>
+        </variant>
+<variant>
+          <configItem popularity="exotic">
+            <name>halmaq</name>
+            <description>English (Halmak, with QWERTY shortcuts)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
