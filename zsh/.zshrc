@@ -48,6 +48,12 @@ export KEYTIMEOUT=1
 bindkey -v '^?' backward-delete-char
 #bindkey -v menuselect 
 
+#Kitty Completion
+autoload -Uz compinit
+compinit
+# Completion for kitty
+kitty + complete setup zsh | source /dev/stdin
+
 #Sources Cargo & .profile
 #source ~/.profile
 #source ~/.cargo/env
