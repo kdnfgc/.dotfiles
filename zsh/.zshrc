@@ -36,13 +36,18 @@ SAVEHIST=1000
 bindkey -v
 export KEYTIMEOUT=1
 
-
-
 # Use vim keys in tab complete menu:
-#bindkey -M menuselect 'p' vi-backward-char
-#bindkey -M menuselect 'x' vi-down-line-or-history
-#bindkey -M menuselect 'k' vi-up-line-or-history
-#bindkey -M menuselect 'y' vi-forward-char
+#bindkey -v 'p' vi-backward-char
+#bindkey -v 'x' vi-down-line-or-history
+#bindkey -v 'k' vi-up-line-or-history
+#bindkey -v 'y' vi-forward-char
+
+#Navigate terminal with vim keys
+bindkey '^P' backward-char
+bindkey '^X' down-line-or-history
+bindkey '^K' up-line-or-history
+bindkey '^Y' forward-char
+
 
 #Fixes backspace bug
 bindkey -v '^?' backward-delete-char
