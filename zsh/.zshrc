@@ -33,8 +33,8 @@ HISTFILE=~/.zsh_history
 SAVEHIST=1000
 
 #VI Mode
-bindkey -v
-export KEYTIMEOUT=1
+#bindkey -v
+#export KEYTIMEOUT=1
 
 # Use vim keys in tab complete menu:
 #bindkey -v 'p' vi-backward-char
@@ -47,10 +47,11 @@ bindkey '^P' backward-char
 bindkey '^X' down-line-or-history
 bindkey '^K' up-line-or-history
 bindkey '^Y' forward-char
+bindkey '^H' backward-delete-char
 
 
 #Fixes backspace bug
-bindkey -v '^?' backward-delete-char
+#bindkey -v '^?' backward-delete-char
 #bindkey -v menuselect 
 
 #Kitty Completion
