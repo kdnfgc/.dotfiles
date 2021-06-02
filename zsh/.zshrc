@@ -48,7 +48,8 @@ bindkey '^X' down-line-or-history
 bindkey '^K' up-line-or-history
 bindkey '^Y' forward-char
 bindkey '^H' backward-delete-char
-
+bindkey '^B' backward-word
+bindkey '^W' forward-word
 
 #Fixes backspace bug
 #bindkey -v '^?' backward-delete-char
