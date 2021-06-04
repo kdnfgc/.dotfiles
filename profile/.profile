@@ -18,10 +18,14 @@ test -z "$PROFILEREAD" && . /etc/profile || true
 # Some people don't like fortune. If you uncomment the following lines,
 # you will have a fortune each time you log in ;-)
 
-export QT_QPA_PLATFORMTHEME="qt5ct"
+#export QT_QPA_PLATFORMTHEME="qt5ct"
+
+#Flutter Path
+export PATH="$PATH:~/flutter/bin"
 
 #Better Java settings
 #export JAVA_TOOL_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -swing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+
 
 #if [ -x /usr/bin/fortune ] ; then
 #    echo

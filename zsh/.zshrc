@@ -62,7 +62,9 @@ compinit
 kitty + complete setup zsh | source /dev/stdin
 
 #Sources Cargo & .profile
-#source ~/.profile
+source ~/.profile
+export PATH="$PATH:~/flutter/bin"
+
 #source ~/.cargo/env
 
 #Aliases
