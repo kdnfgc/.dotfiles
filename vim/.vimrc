@@ -93,10 +93,15 @@ set number
 :nnoremap H X
 
 "Maps l as pull
-:nnoremap l p
-:nnoremap L P
+:nnoremap l y
+:nnoremap L Y
 
 "Maps j as join
-:nnoremap j y
-:nnoremap J Y
+:nnoremap j p
+:nnoremap J P
 
+"Changes position of w in normal mode
+:nnoremap w q
+:nnoremap W Q
+:nnoremap q w
+:nnoremap Q W
