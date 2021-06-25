@@ -63,7 +63,7 @@ kitty + complete setup zsh | source /dev/stdin
 
 #Sources Cargo & .profile
 source ~/.profile
-export PATH="$PATH:~/flutter/bin"
+export PATH="$PATH:/home/kdn/flutter/bin"
 
 #source ~/.cargo/env
 
