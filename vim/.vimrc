@@ -41,7 +41,7 @@ Plug 'mg979/vim-visual-multi'
 "Symbol Autocomplete
 Plug 'Raimondi/delimitMate'
 Plug 'powentan/vim-orgmode'
-Plug 'francoiscabrol/ranger.vim'
+"Plug 'francoiscabrol/ranger.vim'
 Plug 'knubie/vim-kitty-navigator'
 Plug 'vim-test/vim-test'
 Plug 'vim-scripts/AutoComplPop'
