@@ -31,7 +31,7 @@ call plug#begin()
 Plug 'sainnhe/gruvbox-material'
 Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
-Plug 'makerj/vim-pdf'
+"Plug 'makerj/vim-pdf'
 "Enhanced netrw exp
 Plug 'tpope/vim-vinegar'
 "Git Wrapper
@@ -40,8 +40,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'mg979/vim-visual-multi'
 "Symbol Autocomplete
 Plug 'Raimondi/delimitMate'
-Plug 'powentan/vim-orgmode'
-"Plug 'francoiscabrol/ranger.vim'
 Plug 'knubie/vim-kitty-navigator'
 Plug 'vim-test/vim-test'
 Plug 'vim-scripts/AutoComplPop'
