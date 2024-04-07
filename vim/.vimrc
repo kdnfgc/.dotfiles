@@ -75,22 +75,22 @@ let g:lightline.subseparator = {
 set number
 
 "Maps p as left
-:nnoremap p h
-:vnoremap p h
-:nnoremap P H
-:vnoremap P H
+":nnoremap p h
+":vnoremap p h
+":nnoremap P H
+":vnoremap P H
 
 "Maps x as down
-:nnoremap x j
-:vnoremap x j
-:nnoremap X J
-:vnoremap X J
+":nnoremap x j
+":vnoremap x j
+":nnoremap X J
+":vnoremap X J
 
 "Maps y as right
-:nnoremap y l
-:vnoremap y l
-:nnoremap Y L
-:vnoremap Y L
+":nnoremap y l
+":vnoremap y l
+":nnoremap Y L
+":vnoremap Y L
 
 "Maps h as abolish
 :nnoremap h x
@@ -99,23 +99,23 @@ set number
 :vnoremap H X 
 
 "Maps l as pull
-:nnoremap l y
-:vnoremap l y
-:nnoremap L Y
-:vnoremap L Y
+":nnoremap l y
+":vnoremap l y
+":nnoremap L Y
+":vnoremap L Y
 
 "Maps j as join
-:nnoremap j p
-:vnoremap j p
-:nnoremap J P
-:vnoremap J P
+":nnoremap j p
+":vnoremap j p
+":nnoremap J P
+":vnoremap J P
 
 "Changes position of w in normal mode
-:nnoremap w q
-:vnoremap w q
-:nnoremap W Q
-:vnoremap W Q
-:nnoremap q w
-:vnoremap q w
-:nnoremap Q W
-:vnoremap Q W
+":nnoremap w q
+":vnoremap w q
+":nnoremap W Q
+":vnoremap W Q
+":nnoremap q w
+":vnoremap q w
+":nnoremap Q W
+":vnoremap Q W
