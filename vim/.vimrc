@@ -93,10 +93,10 @@ set number
 ":vnoremap Y L
 
 "Maps h as abolish
-:nnoremap h x
-:vnoremap h x
-:nnoremap H X
-:vnoremap H X 
+":nnoremap h x
+":vnoremap h x
+":nnoremap H X
+":vnoremap H X 
 
 "Maps l as pull
 ":nnoremap l y
